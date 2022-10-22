@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: url(/imagenes/WhatsApp\ Image\ 2022-09-23\ at\ 4.29.27\ PM.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; /*La imagen me abarca toda la pantalla*/    
+    width: 100%;
+    box-sizing: border-box;
+}
+nav{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: url(/imagenes/WhatsApp\ Image\ 2022-09-23\ at\ 4.29.27\ PM.jpeg);
+    width: 100px;
+    overflow: hidden;
+    transition: widh 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease;
+}
+
+.logo img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.logo span{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.paciente-logo{
+    position: absolute;
+    left: 10px;
+    top: 100px;
+    
+    }
+a{
+    position: relative;
+    color: rgb(85, 83, 83);
+    font-size: 20px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
+
+h2{
+    position: absolute;
+    left: 280px;
+    top: 25px;
+    color: #606161;
+    font-size: 28px;
+}
+
+/* Texto menu*/
+
+.nav-item{
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+    color: #575555;
+}
+
+nav:hover{
+    width: 280px;
+    transition: all 0.5s ease;
+}
+
+/*Inicio*/
+ 
+.btr-rectanguloin{
+    left: 5px;
+    position: absolute;
+    top: 220px;
+    background: rgba(26, 184, 184, 0.411);
+    border-radius: 5px;
+    width:260px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 25px;
+    color: #5c5a5a;
+    text-align: right;
+    text-decoration: none;
+   }
+   .btr-rectanguloin:hover{
+    background-color: transparent;
+    border: 2px solid rgb(127,206,255);
+    
+   }
+   .icon-inicio{
+       font-size: 45px;
+       position: absolute;
+       top:212px;
+       left: 25px;
+   }
+
+/*Guardar*/
+ .btr-rectangulog{
+    left: 5px;
+    position: absolute;
+    top: 300px;
+    background: rgba(26, 184, 184, 0.411);
+    border-radius: 5px;
+    width:260px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 25px;
+    color: #5c5a5a;
+    text-align: right;
+    text-decoration: none;
+   }
+   .btr-rectangulog:hover{
+    background-color: transparent;
+    border: 2px solid rgb(127,206,255);
+    
+   }
+   .icon-guardar{
+       font-size: 45px;
+       position: absolute;
+       top:291px;
+       left: 25px;
+   }
+/*Cancelar*/
+
+ .btr-rectanguloc{
+    left: 5px;
+    position: absolute;
+    top: 380px;
+    background: rgba(26, 184, 184, 0.411);
+    border-radius: 5px;
+    width:260px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 25px;
+    color: #5c5a5a;
+    text-align: right;
+    text-decoration: none;
+   }
+   .btr-rectanguloc:hover{
+    background-color: transparent;
+    border: 2px solid rgb(127,206,255);
+    
+   }
+   .icon-cancelar{
+       font-size: 40px;
+       position: absolute;
+       top:374px;
+       left: 25px;
+   }
+
+ /*Salir*/
+   
+ .btr-rectanguloi{
+    left: 5px;
+    position: absolute;
+    top: 838px;
+    background: rgba(26, 184, 184, 0.411);
+    border-radius: 5px;
+    width:260px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 25px;
+    color: #5c5a5a;
+    text-align: right;
+    text-decoration: none;
+   }
+   .btr-rectanguloi:hover{
+    background-color: transparent;
+    border: 2px solid rgb(127,206,255);
+    
+   }
+   .icon-salir{
+       font-size: 45px;
+       position: absolute;
+       top:830px;
+       left: 25px;
+   }
+
+/*----------------------------- */
+.contacto{
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    padding: 120px 0;
+}
+
+/* ---*/
+
+.rectangulo{
+    background: #03d9f5;
+    width: 100%;
+    height: 95px;   
+    
+}
+
+.rectangulo-paciente{
+   position: absolute;
+font-size: 28px;
+left: 120px;
+top: 130px;
+       
+    font-weight: 700;
+    
+}
+
+.hr{
+    width: 200px;
+}
+
+.rectangulo-home{
+    background: #76d3d6;
+    width: 230px;
+    height: 40px; 
+    border-radius: 5px;  
+}
+
+/*-----------------------------------------------*/
+
+/*Boton buscar*/
+.container{
+    position: absolute;
+    left: 90%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    }
+    
+    .radio{
+        outline: none;
+        box-sizing: border-box;
+        height: 60px;
+        width: 0;
+        padding: 0 20px;
+        color: #000;
+        border-radius: 50px;
+        font-size: 20px;
+        border: 1px solid #4a4b4b;
+        transition: all .7s ease;
+    }
+    
+    ::placeholder{
+        color: grey;
+    }
+    
+    .btn{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 80px;
+        height: 80px;
+        background-color: #76d3d6;
+        line-height: 80px;
+        border-radius: 50%;
+        text-align: center;
+        cursor: pointer;
+        transition: .5s;
+    }
+    
+    .btn i {
+    font-size: 25px;
+    color: white;
+    line-height: 80px;
+    transition: all .7s ease;
+    
+    }
+    
+    .container:hover .radio {
+        width: 350px;
+    }
+    
+    .container:hover i{
+    
+        transform: rotate(-360deg);
+    }
+    
+    .btn:hover{
+        background: #76d3d6;
+    }
+
+/*FORMULARIO*/
+
+.contacto {
+    width: 800px;
+    background: #76d3d6;
+    padding: 8px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: black;
+    box-shadow: 7px 13px 37px #000;   
+    }
+
+.form-registrar{
+ width: 800px;
+ background: #d6e6db;
+ padding: 10px;
+ margin: auto;
+ margin-top: 100px;
+ border-radius: 4px;
+ font-family: "calibri";
+ color: white;
+ box-shadow: 7px 13px 37px #000;  
+
+    
+
+}
+.form-registrar  h4{
+font-size: 22px;
+margin-bottom: 20px;
+
+
+}
+.controls{
+width: 100%;
+background: #d6d9df;
+padding: 10px;
+border-radius: 4px;
+margin-bottom: 16px;
+border: none;
+font-family: "calibri";
+color: rgb(8, 8, 8);
+
+
+}
+.form-registrar .botons{
+width: 100%;
+background: #c46565;
+border: none;
+color: rgb(255, 255, 255);
+margin: 16px 0;
+padding: 12px;
+font-size: 16px;
+cursor: pointer;
+
+}
+.form-registrar p{
+height: 30px;
+text-align: center;
+font-size: 12px;
+line-height: 40px;
+
+}
+.form-registrar a{
+color: white;
+text-decoration: underline;
+}

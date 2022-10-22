@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200&display=swap');
+
+*{
+    
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+   
+   body .titulo{
+       font-size: 25px;
+       left: 30px;
+       position: absolute;
+       top: 200px;
+       color: rgb(90, 89, 89);
+       
+       
+   }
+
+
+
+   
+   
+/*-------------------------------------------------------*/
+   .wave{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+   
+    width: 100%;
+    
+   }
+
+
+/* fondo de la imagen*/
+
+
+body{
+    background-color: #070707;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(199, 201, 201, 0.856), rgba(5, 241, 241, 0.151)), url(/imagenes/InicioSesion.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*      */
+
+.container-page{ 
+    height: 50vh;
+    width: 20vw;
+    top: 260px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    transition: all 0.8s;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    
+    
+}
+
+h1{
+    color:rgb(99, 98, 98);
+    font-size: 28px;
+    left: 10px;
+    position: absolute;
+    top: 20px;
+}
+
+.texto{
+    color: #4e4e4e;
+}
+
+
+
+.control{
+    height: 40px;
+    
+}
+
+.seleccionar-texto{
+    height: 40px;
+    width: 100%;
+
+}
+
+.cajas{
+
+    position: absolute;
+    top: 200px;
+}
+
+.boton{
+    position: absolute;
+    margin-top: 300px;
+}
+
+
+
+.hiper-inicio{
+    font-size: 25px;
+    color: #4e4e4e;
+    text-decoration: none;
+    margin-left: 80px;
+    text-align: right;
+    position: absolute;
+    left: 1680px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+
+.icono-inicio{
+    color: #4e4e4e;
+    font-size: 30px;
+    position: absolute;
+    left: 1830px;
+}
+
+
+
+
+.button-login{
+    width: 70%;
+    height: 45px;
+    border-radius: 55px;
+    background: rgba(71, 70, 70, 0.137);
+    color: rgb(80, 79, 79);
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    position: absolute;
+   top:390px;
+   left: 50px;
+    text-decoration: none;
+   align-items: center;
+   display: flex;
+   justify-content: center; /*me centra el texto en la mitad del boton*/
+
+}
+
+
+
+.button-login:hover{
+    box-shadow: 0px 0px 8px #ffffffa4;
+}
+

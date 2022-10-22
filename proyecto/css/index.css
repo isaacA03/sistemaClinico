@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200&display=swap');
+
+*{
+    
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+.texto{
+
+
+    font-size: 20px;
+    position: absolute;
+   display: flex;
+   justify-content: space-evenly;
+   font-size: 30px;
+    left: 30px;
+    top: 400px;
+    color: #504f4f;
+    
+    
+}
+
+
+
+   
+
+   
+   body .titulo{
+       font-size: 25px;
+       left: 30px;
+       position: absolute;
+       top: 200px;
+       color: rgb(90, 89, 89);
+    
+        
+       
+       
+   }
+
+
+   /*Botones */
+       
+     /*Iniciar sesion*/
+   
+   .btr-rectanguloi{
+    left: 205px;
+    position: absolute;
+    top: 650px;
+    background: rgba(77, 140, 223, 0.274);
+    border-radius: 20px;
+    padding: 15px 80px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+    color: #5c5a5a;
+    text-decoration: none;
+
+   }
+   
+   .btr-rectanguloi:hover{
+    background-color: transparent;
+    border: 2px solid rgb(127,206,255);
+    
+   }
+  
+   
+   
+   nav{
+    text-align: right;/*se va a alinear la barra de inicio a la derecha*/
+    padding: 30px 50px 0 0;
+    position: relative;
+    top: -460px;
+    left: 750px;
+    font-size: 25px;
+    
+}
+
+nav > a{
+    color: rgb(114, 112, 112); /*color de la letra de la barra inicio blanca*/
+    font-weight: 300;
+    text-decoration: none; /*me quita el subrayado de la parte de abajo*/
+    margin-right: 90px;/* Va a separar cada palabra del menu inicio*/
+    
+    
+}
+/*Cuando pasemos el mouse a la barra de inicio haga lo siguiente*/
+nav > a:hover{
+    text-decoration: underline; /*me quita el subrayado de la parte de abajo*/
+    cursor: pointer;
+}
+   
+   
+   
+   
+   /*Registrar*/
+  
+   .btr-rectangulo{
+       left: 386px;
+       background: #941818;
+       position: absolute;
+       top: 650px;
+       background: rgba(77, 140, 223, 0.274);
+       border-radius: 20px;
+       padding: 15px 80px;
+       text-align: center;
+       cursor: pointer;
+       font-weight: 700;
+       font-size: 20px;
+       color: #5c5a5a;
+       text-decoration: none;
+       
+   }
+
+   .btr-rectangulo:hover{
+    background-color: transparent;
+    border: 2px solid rgb(127,206,255);
+    
+   }
+   
+/*-------------------------------------------------------*/
+   .wave{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+   
+    width: 100%;
+    
+   }
+
+
+/* fondo de la imagen*/
+
+
+
+body{
+    background-color: #070707;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(199, 201, 201, 0.856), rgba(5, 241, 241, 0.151)), url(/imagenes/InicioSesion.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*      */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
